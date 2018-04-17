@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('https://www.cwvet.co.uk/wp-content/uploads/2016/08/LOTS-OF-CATS-i.jpg');
+  /* background-repeat: no-repeat; */
+  background-color: #c4a8a8;
+  background-size: 1709px 1200px;
+  background-attachment: fixed;
+  color: rgb(95, 93, 93);
+  
+}
+#outPut {
+  background-color: rgba(10, 6, 245, 0.089);
+  /* position: absolute; */
+  top: 25%;
+  right: 03%;
+  Color: white;
+}
+
+#outPutTwo {
+  background-color: rgba(250, 6, 6, 0.075);
+  /* position: absolute; */
+  top: 25%;
+  left: 03%;
+  Color: white;
+}
+
+#zipCode {
+  background-color: #ccccc
+}
