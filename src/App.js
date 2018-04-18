@@ -28,7 +28,7 @@ class App extends Component {
 
     //axios.get is grabbing my api key and web address with the zip code variable added in from the input field this way it will update when I want it to. I left animal as cat as I am only searching for that animal.
     var cats = null;
-    axios.get(`http://api.petfinder.com/pet.find?format=json&key=6c6be263b5a04b58281c6870ea097911&location=${this.state.zipCode}&animal=cat`)
+    axios.get(`http://api.petfinder.com/pet.find?format=json&key=apikeyhere&location=${this.state.zipCode}&animal=cat`)
       .then(res => {
 
         cats = res.data.petfinder.pets.pet
@@ -52,7 +52,7 @@ class App extends Component {
   //handle submit to take care of rescueGroup.org api. Below is the array of data I am calling along with my api key.
   handleSubmitTwo() {
     let catData = {
-      "apikey": "h4oPliRc",
+      "apikey": "apikeyhere",
       "objectType": "animals",
       "objectAction": "publicSearch",
       "search":
